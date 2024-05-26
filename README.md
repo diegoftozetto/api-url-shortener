@@ -2,6 +2,12 @@
 
 Esta API é responsável por encurtar URLs longas e deixa-las mais compactas e simples de compartilhar.
 
+## Como Rodar
+
+Na pasta docker execute o comando `docker compose up` para criar e inicializar os contêineres especificados no arquivo `compose.yml`.
+
+Em seguinda, execute o a classe principal: `AppApiUrlShortenerApplication`
+
 ## Exemplo
 
 O serviço espera uma chamada para encurtar uma URL.
